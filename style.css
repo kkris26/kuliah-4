@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: start;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+img {
+  width: 500px;
+}
+.input-form {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+#input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 10px;
+}
+.input-form div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input[type="text" i] {
+  background-color: #0f6fc6;
+  border: 2px solid #095092;
+  padding: 6px;
+  height: 20px;
+  color: white;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 10px;
+  font-weight: 300;
+}
+.input-form .button {
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+}
+input[type="submit" i] {
+  padding: 5px 20px;
+  background-color: #0f6fc6;
+  border: 2px solid #095092;
+  color: white;
+}
+
+.list {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  color: white;
+}
+.list thead {
+  background-color: #0f6fc6;
+}
+.list th,
+td {
+  padding-left: 10px;
+  height: 40px;
+}
+#tbody {
+  color: black;
+}
+
+#tbody tr:nth-child(odd) {
+  background-color: #cbd5ea;
+}
+#tbody tr:nth-child(even) {
+  background-color: #e7ebf5;
+}
+#tbody a {
+  cursor: pointer;
+}
+
+
+td>input{
+  background-color: transparent;
+  border: none;
+}
