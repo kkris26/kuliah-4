@@ -33,6 +33,7 @@ input[type="text" i] {
   padding: 6px;
   height: 20px;
   color: white;
+  width: 60%;
 }
 input::placeholder {
   color: rgba(255, 255, 255, 0.952);
@@ -84,4 +85,5 @@ td {
 td>input{
   background-color: transparent;
   border: none;
+  font-size: 16px;
 }
